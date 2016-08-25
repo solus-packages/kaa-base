@@ -1,0 +1,194 @@
+<PISI>
+    <Source>
+        <Name>kaa-base</Name>
+        <Packager>
+            <Name>Duncan Wijnberg</Name>
+            <Email>duncanw@fastmail.net</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop.library</PartOf>
+        <Summary xml:lang="en">Kaa.base is an LGPL-licensed generic Python application framework with an emphasis on asynchronous programming.</Summary>
+        <Description xml:lang="en">Kaa is an umbrella project comprising a set of Python modules, mostly inclined toward solving problems in the domain of multimedia. kaa.base is an LGPL-licensed generic application framework, providing the foundation for other modules within Kaa, and can be used in any type of project, from small event-driven tools, to larger, complex applications. The Kaa Application Framework includes a mainloop facility with an API for signals and callbacks, timers, thread and subprocess management, local IO and sockets (with TLS support), inter-process communication, and much more. Kaa also – and perhaps most importantly – provides a rich, practically magical API for asynchronous programming. Threads and coroutines in combination with InProgress objects, which are used extensively throughout Kaa, allow you to implement complex state machines responding to asynchronous events in very compact, readable code.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>kaa-base</Name>
+        <Summary xml:lang="en">Kaa.base is an LGPL-licensed generic Python application framework with an emphasis on asynchronous programming.</Summary>
+        <Description xml:lang="en">Kaa is an umbrella project comprising a set of Python modules, mostly inclined toward solving problems in the domain of multimedia. kaa.base is an LGPL-licensed generic application framework, providing the foundation for other modules within Kaa, and can be used in any type of project, from small event-driven tools, to larger, complex applications. The Kaa Application Framework includes a mainloop facility with an API for signals and callbacks, timers, thread and subprocess management, local IO and sockets (with TLS support), inter-process communication, and much more. Kaa also – and perhaps most importantly – provides a rich, practically magical API for asynchronous programming. Threads and coroutines in combination with InProgress objects, which are used extensively throughout Kaa, allow you to implement complex state machines responding to asynchronous events in very compact, readable code.
+</Description>
+        <PartOf>desktop.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/_objectrow.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/_utils.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/async.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/async.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/async.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/callback.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/callback.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/callback.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/config.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/config.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/coroutine.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/coroutine.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/coroutine.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/dateutils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/dateutils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/dateutils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/db.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/db.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/db.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/build_py.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/build_py.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/build_py.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/core.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/core.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/core.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/sphinxext.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/sphinxext.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/sphinxext.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/svn2log.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/svn2log.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/svn2log.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/version.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/xmlconfig.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/xmlconfig.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/distribution/xmlconfig.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/event.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/event.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/event.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/generator.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/generator.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/generator.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/gobject.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/gobject.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/gobject.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/inotify/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/inotify/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/inotify/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/inotify/_inotify.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/lirc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/lirc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/lirc.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/stdin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/stdin.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/input/stdin.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/io.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/io.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/io.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/ioctl.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/ioctl.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/ioctl.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/logger.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/logger.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/logger.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/main.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/main.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/main.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/mdns.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/mdns.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/mdns.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/tls.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/tls.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/tls.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/url.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/url.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/net/url.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/nf_thread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/nf_thread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/nf_thread.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/nf_wrapper.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/nf_wrapper.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/nf_wrapper.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/object.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/object.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/object.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/process.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/process.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/process.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/dispatch.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/dispatch.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/dispatch.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/log.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/log.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/log.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_generic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_generic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_generic.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_gtk.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_gtk.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_gtk.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_twisted.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_twisted.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/nf_twisted.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/pynotifier/version.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/reactor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/reactor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/reactor.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/rpc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/rpc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/rpc.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/saxutils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/saxutils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/saxutils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/shmmodule.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/signals.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/signals.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/signals.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/sockets.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/sockets.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/sockets.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/strutils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/strutils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/strutils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/thread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/thread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/thread.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/timer.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/timer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/timer.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/utils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/version.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/weakref.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/weakref.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/weakref.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/xmlutils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/xmlutils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/xmlutils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa_base-0.6.0-py2.7.egg-info</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-25</Date>
+            <Version>0.6.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Duncan Wijnberg</Name>
+            <Email>duncanw@fastmail.net</Email>
+        </Update>
+    </History>
+</PISI>
