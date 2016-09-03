@@ -2,11 +2,11 @@
     <Source>
         <Name>kaa-base</Name>
         <Packager>
-            <Name>Duncan Wijnberg</Name>
-            <Email>duncanw@fastmail.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0</License>
-        <PartOf>desktop.library</PartOf>
+        <PartOf>programming</PartOf>
         <Summary xml:lang="en">Kaa.base is an LGPL-licensed generic Python application framework with an emphasis on asynchronous programming.</Summary>
         <Description xml:lang="en">Kaa is an umbrella project comprising a set of Python modules, mostly inclined toward solving problems in the domain of multimedia. kaa.base is an LGPL-licensed generic application framework, providing the foundation for other modules within Kaa, and can be used in any type of project, from small event-driven tools, to larger, complex applications. The Kaa Application Framework includes a mainloop facility with an API for signals and callbacks, timers, thread and subprocess management, local IO and sockets (with TLS support), inter-process communication, and much more. Kaa also – and perhaps most importantly – provides a rich, practically magical API for asynchronous programming. Threads and coroutines in combination with InProgress objects, which are used extensively throughout Kaa, allow you to implement complex state machines responding to asynchronous events in very compact, readable code.
 </Description>
@@ -17,7 +17,7 @@
         <Summary xml:lang="en">Kaa.base is an LGPL-licensed generic Python application framework with an emphasis on asynchronous programming.</Summary>
         <Description xml:lang="en">Kaa is an umbrella project comprising a set of Python modules, mostly inclined toward solving problems in the domain of multimedia. kaa.base is an LGPL-licensed generic application framework, providing the foundation for other modules within Kaa, and can be used in any type of project, from small event-driven tools, to larger, complex applications. The Kaa Application Framework includes a mainloop facility with an API for signals and callbacks, timers, thread and subprocess management, local IO and sockets (with TLS support), inter-process communication, and much more. Kaa also – and perhaps most importantly – provides a rich, practically magical API for asynchronous programming. Threads and coroutines in combination with InProgress objects, which are used extensively throughout Kaa, allow you to implement complex state machines responding to asynchronous events in very compact, readable code.
 </Description>
-        <PartOf>desktop.library</PartOf>
+        <PartOf>programming</PartOf>
         <Files>
             <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/__init__.pyc</Path>
@@ -183,12 +183,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-08-25</Date>
+        <Update release="2">
+            <Date>2016-09-03</Date>
             <Version>0.6.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Duncan Wijnberg</Name>
-            <Email>duncanw@fastmail.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
